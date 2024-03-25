@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow: hidden;
+}
+#vid{
+    width: 100%;
+}
+.convey{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+.container .img{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container .img #img{
+    width: 170px;
+    height: 160px;
+}
+.container .content{
+    padding-top: 35px;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+}
+.container .content #head{
+    color: #f0f8ff;
+    font-size: 25px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    text-shadow: 1px 2px 2px #000000;
+}
+.container .content #cont{
+    color: #f0f8ff;
+    font-size: 45px;
+    letter-spacing: 8px;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px #000000;
+}
+.container .content #slogan{
+    padding-top: 25px;
+    color: #f0f8ff;
+    font-size: 18px;
+    text-shadow: 1px 2px 2px #000000;
+}
+.container .button{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .button #btn{
+    width: 11rem;
+    height: 4rem;
+    color: #f0f8ff;
+    background-color: rgba(0, 0, 0, 0.3);
+    outline: none;
+    font-size: 16px;
+    letter-spacing: 3px;
+    border: 2px solid #f0f8ff;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.container .button #btn:hover{
+    background-color: #f0f8ff;
+    color: rgba(0, 0, 0);
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
